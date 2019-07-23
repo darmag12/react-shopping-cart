@@ -1,7 +1,13 @@
+// .products-container {
+// 	display: flex;
+// 	flex-wrap: wrap;
+// 	justify-content: space-around;
+// 	width: 1600px;
+// 	margin: 0 auto;
+// }
 .products-container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	width: 1600px;
-	margin: 0 auto;
+ display: grid;
+ grid-template-columns: 50% 50%;
+ grid-gap: 30px;
+justify-content: space-between;
 }
