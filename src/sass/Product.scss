@@ -2,11 +2,18 @@
 	border-radius: 5px;
 	background: white;
 	transition: 0.2s ease-in-out;
-	width: 333px;
+	width: 53%;
 	margin: 30px;
+	// display: grid;
+	// justify-content: center;
+	// margin-left: 100px;
+	position: relative;
+	left: 100px;
+	// text-align: center;
 
 	&:hover {
 		box-shadow: 0px 5px 37px -22px rgba(0, 0, 0, 1);
+		cursor: pointer;
 	}
 
 	.details {
@@ -27,7 +34,7 @@
 		object-fit: contain;
 		border-top-left-radius: 5px;
 		border-top-right-radius: 5px;
-		max-width: 333px;
+		max-width: 100%;
 	}
 
 	button {
